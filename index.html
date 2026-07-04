@@ -38,112 +38,288 @@
     <link rel="stylesheet" href="assets/css/spacings.css" />
     <!--====== Default css ======-->
     <link rel="stylesheet" href="assets/css/style.css" />
+        <style>
+      .header-navigation {
+        background-color: #161921 !important;
+      }
+      .header-navigation .main-menu ul > li > a {
+        color: #ffffff !important;
+      }
+      .header-top-bar {
+        background-color: #6d7c6a;
+        padding: 5px 0;
+      }
+      .header-navigation .navbar-toggler {
+        border: 1px solid #ffffff;
+      }
+      .header-navigation .navbar-toggler span {
+        background-color: #ffffff;
+      }
+
+
+
+
+
+      @media screen and (max-width: 1199.98px) {
+    .header-navigation .theme-nav-menu.menu-on {
+        background: #161921;
+
+    }}
+    @media (max-width: 1650px) {
+    .luxivo-search_one .luxivo-search-wrapper .shape.shape-two {
+        right: 125px;
+    }
+}
+@media (max-width: 1650px) {
+    .luxivo-search_one .luxivo-search-wrapper .shape.shape-one {
+        left: 125px;
+    }
+}
+    </style>
   </head>
   <body>
-    <script src="header.js"></script>
+    <!-- <script src="header.js"></script> -->
     <!--======  Smooth Wrapper  ======-->
+
+
+
+    <!--=== Start  Header Area  ===-->
+    <header class="header-area header-two">
+      <!--====  Header Top Bar  ===-->
+      <div class="header-top-bar d-none d-lg-block">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="top-left">
+                <span
+                  ><a href="tel:+91 92186-60001">
+                    <i class="far fa-phone" style="color: #ffffff"></i> -
+                    Tel.+91 92186-60001</a
+                  ></span
+                >
+                <span
+                  ><a href="mailto: reservations@avresorts.in">
+                    <i class="far fa-envelope" style="color: #ffffff"></i>
+                    reservations@avresorts.in</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="top-right">
+                <span
+                  ><i class="far fa-map-marker-alt" style="color: #ffffff"></i
+                  >Mohal, Himachal Pradesh-175126</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--====  Header Navigation  ===-->
+      <div class="header-navigation">
+        <div class="container-fluid">
+          <!--====  Primary Menu  ===-->
+          <div class="primary-menu">
+            <!--====  Site Branding  ===-->
+            <div class="site-branding">
+              <a href="index.html" class="brand-logo"
+                ><img
+                  src="assets/images/apple-valley-imgs/logon.png"
+                  alt="Brand Logo"
+                  style="width: 140px"
+              /></a>
+            </div>
+            <!--=== Main Menu ===-->
+            <div class="theme-nav-menu">
+              <!--=== Menu Top ===-->
+              <div class="theme-menu-top d-block d-xl-none">
+                <div class="site-branding">
+                  <a href="index.html" class="brand-logo"
+                    ><img
+                      src="assets/images/apple-valley-imgs/logon.png"
+                      alt="Brand Logo"
+                  /></a>
+                </div>
+              </div>
+              <!--=== Main Menu ===-->
+              <nav class="main-menu">
+                <ul>
+                  <li class="menu-item">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="index.html#about">About Us</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="index.html#rooms">Accommodation</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="gallery.html"> Gallery</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="index.html#services">Services</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="index.html#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </nav>
+              <!--=== Nav Button ===-->
+              <div class="theme-nav-button mt-20 d-block d-md-none">
+                <a  href="https://applevalleyresorts.bookingjini.in/" class="theme-btn style-one"
+                  >Get A Quote<i class="far fa-arrow-right"></i
+                ></a>
+              </div>
+              <!--===  Menu Bottom ===-->
+              <div class="theme-menu-bottom mt-50 d-block d-xl-none">
+                <h5>Follow Us</h5>
+                <ul class="social-link">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter text-white"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-youtube text-white"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!--=== Header Nav Right ===-->
+            <div class="nav-right-item">
+              <div class="nav-button d-none d-md-block">
+                <a
+                  href="https://applevalleyresorts.bookingjini.in/"
+                  class="theme-btn style-one"
+                  >Book Now<i class="far fa-arrow-right"></i
+                ></a>
+              </div>
+              <div class="navbar-toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--=== End  Header Area  ===-->
+
+
     <main>
       <!--======  Start Hero Section  ======-->
       <section class="luxivo-hero">
-        <div
-          class="luxivo-hero_one p-r z-1 bg_cover"
-          data-src="assets/images/apple-valley-imgs/hero-bg.webp"
-        >
+        <div class="luxivo-hero_three">
           <div
-            class="hero-image hero-image_one"
-            data-aos="fade-up"
-            data-aos-duration="2500"
-            data-aos-delay="10"
-          >
-            <img
-              src="assets/images/apple-valley-imgs/3.webp"
-              alt="hero image"
-              style="width: 483px; height: 400px; object-fit: cover"
-            />
+            class="hero-bg bg_cover"
+            data-src="assets/images/home-three/hero/hero-bg.png"
+          ></div>
+          <!-- Hero Image Slider -->
+          <div class="hero-image-slider">
+            <div class="single-image-slide">
+              <img
+                src="assets/images/apple-valley-imgs/28.jpeg"
+                alt=""
+                style="object-fit: cover; height: 100%"
+              />
+            </div>
+            <div class="single-image-slide">
+              <img
+                src="assets/images/apple-valley-imgs/23.jpeg"
+                alt=""
+                style="object-fit: cover; height: 100%"
+              />
+            </div>
+            <div class="single-image-slide">
+              <img
+                src="assets/images/apple-valley-imgs/rooms/6.jpeg"
+                alt=""
+                style="object-fit: cover; height: 100%"
+              />
+            </div>
+            <div class="single-image-slide">
+              <img
+                src="assets/images/apple-valley-imgs/apple-valley-resort.jpg"
+                alt=""
+                style="object-fit: cover; height: 100%"
+              />
+            </div>
           </div>
-          <div
-            class="hero-image hero-image_two"
-            data-aos="fade-down"
-            data-aos-duration="3000"
-            data-aos-delay="20"
-          >
-            <img
-              src="assets/images/apple-valley-imgs/9.webp"
-              alt="hero image"
-              style="width: 483px; height: 450px; object-fit: cover"
-            />
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <!-- Hero Content -->
-                <div class="hero-content text-center text-xl-start mb-25">
-                  <h1 data-aos="fade-left" data-aos-duration="2500">
-                    Welcome to <br />
-                    Apple Valley Resort
-                  </h1>
-                </div>
+          <!-- Hero Thumb Slider -->
+          <div class="hero-thumb-wrapper">
+            <div class="hero-thumb-slider">
+              <div class="single-thumb-image">
+                <img
+                  src="assets/images/apple-valley-imgs/28.jpeg"
+                  alt="hero thumb image"
+                  style="width: 165px; height: 80px; object-fit: cover"
+                />
+              </div>
+              <div class="single-thumb-image">
+                <img
+                  src="assets/images/apple-valley-imgs/23.jpeg"
+                  alt="hero thumb image"
+                  style="width: 165px; height: 80px; object-fit: cover"
+                />
+              </div>
+              <div class="single-thumb-image">
+                <img
+                  src="assets/images/apple-valley-imgs/rooms/6.jpeg"
+                  alt="hero thumb image"
+                  style="width: 165px; height: 80px; object-fit: cover"
+                />
+              </div>
+              <div class="single-thumb-image">
+                <img
+                  src="assets/images/apple-valley-imgs/apple-valley-resort.jpg"
+                  alt="hero thumb image"
+                  style="width: 165px; height: 80px; object-fit: cover"
+                />
               </div>
             </div>
-
-            <div class="row justify-content-center">
-              <div class="col-lg-6">
-                <!-- Text Box -->
-                <div
-                  class="text-box"
-                  data-aos="fade-up"
-                  data-aos-duration="2600"
-                >
-                  <p>
+            <div class="hero-thumb-arrow"></div>
+          </div>
+          <div class="container-fluid">
+            <div class="row justify-content-center justify-content-xl-start">
+              <div class="col-xl-6 col-lg-8 col-md-10">
+                <!-- Hero Content -->
+                <div class="hero-content">
+                  <span
+                    class="sub-title"
+                    data-aos="fade-up"
+                    data-aos-duration="2000"
+                    >Welcome to Apple Valley Resort</span
+                  >
+                  <h1 data-aos="fade-up" data-aos-duration="2400">
+                    Riverside Living in Kullu -
+                  </h1>
+                  <h1 data-aos="fade-up" data-aos-duration="2400">
+                    Apple Valley Resort
+                  </h1>
+                  <p data-aos="fade-up" data-aos-duration="2600">
                     Nestled along the scenic Bhuntar–Kullu road, just 6 km from
                     Bhuntar Airport, Apple Valley Resort offers a peaceful
                     riverside escape surrounded by nature.
                   </p>
-
-                  <div class="hero-button">
+                  <div
+                    class="luxivo-button mb-75"
+                    data-aos="fade-up"
+                    data-aos-duration="2800"
+                  >
                     <a
                       href="https://applevalleyresorts.bookingjini.in/"
                       class="theme-btn style-one"
-                    >
-                      Explore Rooms
-                      <i class="far fa-arrow-right"></i>
-                    </a>
+                      >Book Your Stay<i class="far fa-arrow-right"></i
+                    ></a>
                   </div>
+    
                 </div>
-              </div>
-            </div>
-            <!-- Luxivo Avatar Box -->
-            <div
-              class="luxivo-avatar-box style-one"
-              data-aos="fade-up"
-              data-aos-duration="2000"
-            >
-              <h6>Beautiful Destinations</h6>
-              <div class="avatar-text-box">
-                <div class="avatar-list">
-                  <ul>
-                    <li>
-                      <img
-                        src="assets/images/apple-valley-imgs/author-img1.webp"
-                        alt="avatar"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/apple-valley-imgs/author-img2.webp"
-                        alt="avatar"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/apple-valley-imgs/author-img3.webp"
-                        alt="avatar"
-                      />
-                    </li>
-                    <li><span>10+</span></li>
-                  </ul>
-                </div>
-                <div class="text">100k+ users have visited our platform</div>
               </div>
             </div>
           </div>
@@ -176,71 +352,21 @@
             <div class="row">
               <div class="col-lg-12">
                 <!-- Text Box -->
-                <div class="text-box text-center text-xl-start">
+                <div class="text-box text-center ">
                   <h3 class="mb-20">Find The Best Place</h3>
                 </div>
               </div>
             </div>
             <!-- Luxivo Form -->
-            <form action="https://applevalleyresorts.bookingjini.in/">
-              <div class="row align-items-end">
-                <div class="col-xl-10">
-                  <div class="row">
-                    <div class="col-xl-3 col-md-6">
-                      <div class="form-group">
-                        <label>Check In</label>
-                        <input
-                          type="date"
-                          class="form_control"
-                          name="CheckIn"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                      <div class="form-group">
-                        <label>Check Out</label>
-                        <input
-                          type="date"
-                          class="form_control"
-                          name="CheckOut"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                      <div class="form-group">
-                        <label>Rooms</label>
-                        <select class="wide">
-                          <option value="01">01 Rooms</option>
-                          <option value="01">02 Rooms</option>
-                          <option value="01">03 Rooms</option>
-                          <option value="01">04 Rooms</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6">
-                      <div class="form-group">
-                        <label>Guests</label>
-                        <select class="wide">
-                          <option value="01">02 Adults, 0 Child</option>
-                          <option value="01">02 Adults, 1 Child</option>
-                          <option value="01">04 Adults, 2 Child</option>
-                          <option value="01">06 Adults, 0 Child</option>
-                        </select>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-2">
-                  <div
-                    class="luxivo-button mt-4 mt-xl-0 text-center text-xl-start"
-                  >
-                    <button class="theme-btn style-one">BOOK NOW</button>
-                  </div>
-                </div>
-              </div>
-            </form>
+          
+<!-- Start BookingJini Website Widget -->
+<script
+  id="bookingjini-website-widget-script"
+  src="https://be-alpha.bookingjini.com/website-widget.js?hotel_id=1583&widget_type=horizontal&theme_color=%236d7c6a&company_id=1643&redirect_base_url=https%3A%2F%2Fapplevalleyresorts.bookingjini.in&open_be_new_window=1&widget_status=1"
+  async defer
+></script>
+<!-- End BookingJini Website Widget -->
+    
           </div>
         </div>
       </section>
@@ -263,39 +389,9 @@
                     alt="about image"
                   />
                 </div>
-                <div
-                  class="luxivo-image image_two"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="assets/images/apple-valley-imgs/20.jpeg"
-                    alt="about image"
-                    style="width: 353px; height: 228px; object-fit: cover"
-                  />
-                </div>
-                <!-- Luxivo Custer Box -->
-                <div
-                  class="luxivo-customer-box"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                >
-                  <div class="content">
-                    <h3>2k+</h3>
-                    <p>Happy customer</p>
-                  </div>
-                </div>
-                <!-- Experience Box -->
-                <div
-                  class="luxivo-experience-box"
-                  data-aos="fade-down"
-                  data-aos-duration="1000"
-                >
-       <div class="content">
-    <h3>24/7</h3>
-    <p>Guest Assistance</p>
-</div>
-                </div>
+          
+             
+
               </div>
             </div>
             <div class="col-xl-6 col-lg-9">
@@ -449,8 +545,7 @@
               <div class="content">
                 <h4>Doctor on Call</h4>
                 <p>
-                  Medical assistance available whenever needed for your comfort
-                  and safety.
+                  Medical assistance available anytime.
                 </p>
               </div>
             </div>
@@ -465,8 +560,7 @@
               <div class="content">
                 <h4>Hangers</h4>
                 <p>
-                  Convenient clothing hangers provided to keep your garments
-                  organized.
+                  Clothing hangers for your convenience.
                 </p>
               </div>
             </div>
@@ -1039,6 +1133,60 @@
         </div>
       </section>
       <!--======  End Instagram Section  ======-->
+
+
+
+      <section class="luxivo-facilities_two bg_cover pt-80 pb-80" data-src="assets/images/apple-valley-imgs/apple-valley-resort.jpg" style="background-image: url(&quot;assets/images/apple-valley-imgs/apple-valley-resort.jpg&quot;);" id="why-book-direct">
+                <div class="container">
+                    <div class="row justify-content-center justify-content-xl-end">
+                        <div class="col-xl-6 col-lg-8 col-md-10">
+                            <div class="facilities-wrapper">
+                                <div class="section-title">
+                                    <span class="line d-block mb-10 aos-init" data-aos="fade-up" data-aos-duration="800"><img src="assets/images/home-one/gallery/d-line.png" alt="line"></span>
+                                    <span class="sub-title aos-init" data-aos="fade-up" data-aos-duration="800">Hotel Service &amp; Facilities</span>
+                                    <h2 data-aos="fade-up" data-aos-duration="1000" class="aos-init">Book Direct Benefits</h2>
+                                </div>
+                                <div class="facilities-list">
+                                    <div class="luxivo-iconic-left-box style-five mb-30 aos-init" data-aos="fade-up" data-aos-duration="800">
+                                        <div class="icon">
+                                            <img src="assets/images/icons/rating.png" alt="icon" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div class="content">
+                                            <h4>Best Rate Guarantee</h4>
+                                        </div>
+                                    </div>
+                                    <div class="luxivo-iconic-left-box style-five mb-30 aos-init" data-aos="fade-up" data-aos-duration="1200">
+                                        <div class="icon">
+                                            <img src="assets/images/icons/drink.png" alt="icon" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div class="content">
+                                            <h4>Welcome Drinks</h4>
+                                        </div>
+                                    </div>
+                                    <div class="luxivo-iconic-left-box style-five mb-30 aos-init" data-aos="fade-up" data-aos-duration="1400">
+                                        <div class="icon">
+                                            <img src="assets/images/icons/no-fee.png" alt="icon" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div class="content">
+                                            <h4>No Booking Fee</h4>
+                                        </div>
+                                    </div>
+                                    <div class="luxivo-iconic-left-box style-five mb-30 aos-init" data-aos="fade-up" data-aos-duration="1600">
+                                        <div class="icon">
+                                            <img src="assets/images/icons/calendar.png" alt="icon" style="width: 40px; height: 40px;">
+                                        </div>
+                                        <div class="content">
+                                            <h4>Flexible Check-in/Check-out</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
       <!--======  Start Testimonial Section  ======-->
       <section class="luxivo-testimonial-one pt-110 pb-120">
         <div class="container">
@@ -1051,7 +1199,7 @@
                   data-aos="fade-up"
                   data-aos-duration="800"
                   ><img
-                    src="assets/images/home-one/gallery/d-line.png"
+                    src="assets/images/home-icons/antiseptic.png"
                     alt="line"
                 /></span>
                 <span
@@ -1194,6 +1342,9 @@
         </div>
       </section>
       <!--======  End Testimonial Section  ======-->
+
+
+
       <!--======  Start Contact Section  ======-->
       <section class="luxivo-contact_one pt-60 pb-60" id="contact">
         <!-- Contact Left -->
@@ -1354,6 +1505,8 @@
     <script src="assets/js/plugins/aos.js"></script>
     <!--====== Common js ======-->
     <script src="assets/js/theme.js"></script>
+
+    <script src="float.js"></script>
     
   </body>
 </html>

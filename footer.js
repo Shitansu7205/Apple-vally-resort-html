@@ -168,7 +168,6 @@ document.write(`
     <!--====== End Footer  ======-->
     <!--====== Back To Top  ======-->
     <div class="back-to-top"><i class="far fa-angle-up"></i></div>
-        <script src="https://jiniassist.bookingjini.com/embed.js?company_id=1643"></script>
-
+      
     
     `);

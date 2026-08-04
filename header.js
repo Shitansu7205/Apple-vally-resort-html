@@ -59,7 +59,7 @@ document.write(`
                     <a href="index.html#services">Services</a>
                   </li>
                   <li class="menu-item ">
-                    <a href="index.html#contact">Contact Us</a>
+                    <a href="contact.html">Contact Us</a>
                   </li>
                 </ul>
               </nav>
